@@ -8,7 +8,9 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../.. 
 ################################################################################
-# OF_ROOT = ../../..
+# Uncomment if you are a LINUX User and followed the openFrameworks installation
+# Guide where the framework source files are at /opt/
+# OF_ROOT= ../../../../../../opt/openFrameworks
 
 ################################################################################
 # PROJECT ROOT

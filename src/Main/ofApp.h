@@ -5,7 +5,7 @@
 #include "GameState.h"
 #include "GameOverState.h"
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp {
 
 private:
 	State *currentState;
