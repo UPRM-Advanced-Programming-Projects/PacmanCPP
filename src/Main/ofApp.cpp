@@ -38,8 +38,18 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	if (currentState != nullptr)
+	if (currentState != nullptr){
 		currentState->keyPressed(key);
+	}
+	//Turn Volume Down (Mute)	
+	if( key == '-' ){
+		ofSoundSetVolume(0);
+	}
+	
+	//Turn Volume Back Up
+	if( key == '=' ){
+		ofSoundSetVolume(1);
+	}
 
 }
 
