@@ -1,14 +1,5 @@
 #include "MenuState.h"
 
-/**
- * Current interestingly weird bugs to fix
- * -> Game start state does not reset the ghost count back to 4
- * -> Spawning is always in the same spot
- * -> If Pacman is super-positioned on top of a ghost then you will loose all your lifes
- * -> Pink pacman is miscropped (Joh fix)
- * ->
-*/
-
 MenuState::MenuState() {
 	startButton = new Button(ofGetWidth()/2-32, ofGetHeight()/2, 64, 50, "Start");
 	img1.load("images/pacman.png");
