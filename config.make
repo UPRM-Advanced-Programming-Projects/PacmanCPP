@@ -8,7 +8,12 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../.. 
 ################################################################################
-# OF_ROOT = ../../..
+# Sup Joel. The commented OF_ROOT is the one I am using on my VM. My
+# openFrameworks is located at /opt/openFrameworks where / would be my root
+# directory. Its a UNIX standard. I don't know why Windows doesn't have an opt
+# folder ANYWHERE on their root directory, thank you Bill Gates! 
+# Anyway just to let you know.
+# OF_ROOT = ../../../
 
 ################################################################################
 # PROJECT ROOT
