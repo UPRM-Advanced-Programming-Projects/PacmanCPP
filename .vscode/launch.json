@@ -22,7 +22,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build"
+            "preLaunchTask": "UNIX build",
+            "miDebuggerPath": "/usr/bin/gdb",
         },
         {
             "name": "OSX",

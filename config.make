@@ -13,7 +13,7 @@
 # directory. Its a UNIX standard. I don't know why Windows doesn't have an opt
 # folder ANYWHERE on their root directory, thank you Bill Gates! 
 # Anyway just to let you know.
-# OF_ROOT = ../../../
+OF_ROOT= ../../../../../../opt/openFrameworks
 
 ################################################################################
 # PROJECT ROOT
